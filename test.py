@@ -8,7 +8,7 @@ l = list(map(int,input().split()))
 #             l[j] = l[j + 1]
 #             l[j + 1] = a
 l.sort()
-            
+
 print(f"{l[0]} {l[-1]}")
         
 
